@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100rem;
+}
+
+.wrapper{
+    width: 60%;
+    margin: 0 auto;
+ 
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+
+.nav-bar > a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    margin-right: 1.5rem;
+}
+.nav-bar > a:hover{
+    background-color: gray;
+    transition: 0.3s;
+}
+
+.nav-bar > img{
+    width: 3rem;
+    margin-right: 9rem;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+   
+}
